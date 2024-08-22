@@ -43,6 +43,13 @@
 				},
 			};
 		</script>
+		<style>
+			.bg-img {
+				background-image: url("./images/bg.jpg");
+
+				background-size: cover;
+			}
+		</style>
 	</head>
 	<body class="manrope bg-base-200">
 		<header class="md:container md:mx-auto">
@@ -180,6 +187,7 @@
 								We design spaces that blend beauty and functionality, creating
 								environments that are both stylish and comfortable to live in.
 							</p>
+
 							<div class="collapse bg-base-100">
 								<div
 									class="collapse-title text-xl font-bold flex justify-center items-start lg:items-center space-x-4"
@@ -222,7 +230,7 @@
 				<div
 					class="lg:w-3/4 text-center mx-auto space-y-2 hero-content flex-col"
 				>
-					<h1 class="font-extrabold text-3xl lg:text-4xl lg:my-3">
+					<h1 class="font-extrabold text-3xl lg:text-5xl lg:my-3">
 						Our Works Process
 					</h1>
 					<p class="text-base text-gray-700">
@@ -291,7 +299,7 @@
 				</div>
 			</section>
 			<!-- our portfolio -->
-			<section class="bg-base-100 my-10">
+			<section class="bg-base-100">
 				<div class="hero-content flex-col">
 					<div class="">
 						<button class="btn rounded-full bg-[#ABEF5F33] ml-4">
@@ -299,7 +307,7 @@
 						</button>
 					</div>
 					<div class="lg:w-3/4 text-center mx-auto space-y-2">
-						<h1 class="font-extrabold text-3xl lg:text-4xl my-3">
+						<h1 class="font-extrabold text-3xl lg:text-5xl my-3">
 							Our Latest Portfolio
 						</h1>
 						<p class="text-base text-gray-700 w-full">
@@ -365,6 +373,62 @@
 						</div>
 						<div class="card bg-base-100 shadow-xl">
 							<img src="./images/img5.png" alt="" class="scale-75" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- discuss section -->
+			<section class="bg-img">
+				<div class="hero-content flex-col">
+					<div class="">
+						<button class="btn rounded-full bg-[#ABEF5F33] ml-4">
+							<i class="fa-solid fa-arrow-right"></i>Let’s Connect
+						</button>
+					</div>
+					<div class="lg:w-3/4 text-center mx-auto space-y-10">
+						<h1 class="font-extrabold text-3xl lg:text-5xl my-3">
+							Let’s Discuss Next Project
+						</h1>
+						<p class="text-base text-gray-700 w-full">
+							Invites collaboration to bring your vision to life, offering
+							expertise and creativity to ensure a successful outcome tailored
+							to your needs.
+						</p>
+						<div
+							class="grid grid-cols-1 md:grid-cols-2 grid-rows-4 gap-x-5 lg:gap-y-10 gap-y-5"
+						>
+							<input
+								type="text"
+								placeholder="First Name*"
+								class="input input-bordered w-full rounded-full"
+							/>
+							<input
+								type="text"
+								placeholder="Last Name*"
+								class="input input-bordered w-full rounded-full"
+							/>
+							<input
+								type="number"
+								placeholder="Phone Number*"
+								class="input input-bordered w-full rounded-full"
+							/>
+							<input
+								type="email"
+								placeholder="Email Number*"
+								class="input input-bordered w-full rounded-full"
+							/>
+							<textarea
+								placeholder="Write your message here"
+								class="textarea textarea-bordered textarea-md w-full md:col-span-2 rounded-[32px] row-span-2"
+							></textarea>
+						</div>
+						<div class="btn btn-block rounded-full bg-color-primary">
+							<a class="text-base font-extrabold">Send Mail</a>
+							<div
+								class="text-center rounded-full h-6 w-6 -rotate-45 py-1 text-white bg-black"
+							>
+								<i class="fa-solid fa-arrow-right"></i>
+							</div>
 						</div>
 					</div>
 				</div>
