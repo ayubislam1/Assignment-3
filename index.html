@@ -44,11 +44,11 @@
 			};
 		</script>
 	</head>
-	<body class="manrope">
+	<body class="manrope bg-base-200">
 		<header class="md:container md:mx-auto">
 			<!-- nav -->
 			<nav>
-				<div class="navbar bg-base-100">
+				<div class="navbar">
 					<div class="navbar-start space-x-1">
 						<div
 							class="bg-color-primary text-center rounded-full h-7 w-7 -rotate-45"
@@ -68,17 +68,19 @@
 					</div>
 					<div class="navbar-end space-x-3">
 						<div
-							class="rounded-full h-11 w-11 5 text-center border-2 border-gray-300 py-2 text-green-400 hidden sm:block"
+							class="rounded-full h-11 w-11 5 text-center border-2 bg-base-100 py-2 text-green-400 hidden sm:block"
 						>
 							<i class="fa-sharp fa-solid fa-magnifying-glass"></i>
 						</div>
 						<div
-							class="rounded-full h-11 w-11 text-center border-2 border-gray-300 py-2 text-green-400 hidden sm:block"
+							class="rounded-full h-11 w-11 text-center border-2 bg-base-100 py-2 text-green-400 hidden sm:block"
 						>
 							<i class="fa-solid fa-cart-shopping"></i>
 						</div>
 
-						<div class="btn rounded-full bg-color-primary">
+						<div
+							class="btn rounded-full bg-color-primary hidden sm:inline-flex"
+						>
 							<a class="text-base font-bold">Book Consult</a>
 							<div
 								class="text-center rounded-full h-6 w-6 -rotate-45 py-1 text-white bg-black"
@@ -88,7 +90,11 @@
 						</div>
 					</div>
 					<div class="dropdown dropdown-bottom dropdown-end">
-						<div tabindex="0" role="button" class="btn btn-ghost m-1 lg:hidden">
+						<div
+							tabindex="0"
+							role="button"
+							class="btn btn-ghost m-1 lg:hidden bg-base-100 rounded-full h-12 w-12 text-center px-2"
+						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								class="h-5 w-5"
@@ -117,18 +123,30 @@
 					</div>
 				</div>
 			</nav>
-			<!-- nav banner -->
+			<!-- hero section -->
 			<section>
-				<div class="hero bg-base-200 min-h-screen">
-					<div class="hero-content text-center">
-						<div class="max-w-md">
-							<h1 class="text-5xl font-bold">Hello there</h1>
-							<p class="py-6">
-								Provident cupiditate voluptatem et in. Quaerat fugiat ut
-								assumenda excepturi exercitationem quasi. In deleniti eaque aut
-								repudiandae et a id nisi.
+				<div class="hero bg-base-200">
+					<div class="hero-content text-center flex flex-col">
+						<div>
+							<img src="./images/banner.png" alt="" />
+						</div>
+						<div class="lg:w-3/4">
+							<h1 class="text-6xl md:text-5xl font-extrabold mb-5">
+								A barn house of this design has a striking appearance
+							</h1>
+							<p class="py-6 text-xl text-gray-700 mb-5">
+								This barn house design is striking, combining rustic charm with
+								modern style through its gabled roof, large windows, and natural
+								materials.
 							</p>
-							<button class="btn btn-primary">Get Started</button>
+							<div class="btn rounded-full bg-color-primary">
+								<a class="text-base font-bold">View Details</a>
+								<div
+									class="text-center rounded-full h-6 w-6 -rotate-45 py-1 bg-lime-500"
+								>
+									<i class="fa-solid fa-arrow-right"></i>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
